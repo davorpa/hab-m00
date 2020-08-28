@@ -3,3 +3,5 @@ tomate
 aceite
 vinagre
 sal
+aceitunas
+nueces
