@@ -5,3 +5,5 @@ vinagre
 sal
 aceitunas
 nueces
+pimiento
+arroz
