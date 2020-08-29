@@ -7,3 +7,6 @@ aceitunas
 nueces
 pimiento
 arroz
+mahonesa
+atún
+gambas
