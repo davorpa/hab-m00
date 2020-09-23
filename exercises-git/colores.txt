@@ -1,0 +1,9 @@
+rojo
+negro
+azul
+verde
+amarillo
+rosa
+blanco
+cian
+magenta
