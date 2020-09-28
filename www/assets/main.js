@@ -26,4 +26,12 @@ let resultadoSuma = 5 + 5;
 let numeroDeDiasHastaElRetiro = 345;
 
 
+// Antes de ECMAScript 6 todas las variables eran declaradas de esta manera. 
+var totalDeAlumnos = 24;
+
+let edad = 13;
+
+// Debemos usar const siempre que nos sea posible. Solo emplearemos let en caso de que no nos quede otro remedio. 
+const name = 'Pablo';
+
 }).call(this);
