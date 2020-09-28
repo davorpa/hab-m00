@@ -74,4 +74,38 @@ const fechaDeRecepcion = null;
 console.log(typeof(fechaDeRecepcion));
 
 
+let numA = 4;  
+let numB = 2;
+
+// Sumar
+let suma = numA + numB;
+console.log('suma', suma);
+
+// Restar
+let resta = numA - numB;
+console.log('resta', resta);
+
+// Multiplicar
+let multiplica = numA * numB;
+console.log('multiplica', multiplica);
+
+// Cociente división
+let cociente = numA / numB;
+console.log('cociente', cociente);
+
+// Resto de una división
+let resto = numA % numB;
+console.log('resto división', resto);
+
+// Elevar "numA" a la potencia de "numB"
+let potencia = numA ** numB;
+console.log('potencia', potencia);
+
+// Incrementar el valor de "numA" en una unidad.
+numA++; // Es lo mismo que hacer "numA = numA + 1;" o "numA += 1;"
+
+// Asignar a la variable "numB" el resultado de sumar "numB" más 15.
+numB += 15; // Es lo mismo que hacer "numB = numB + 15;"
+
+
 }).call(this);
