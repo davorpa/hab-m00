@@ -67,4 +67,10 @@ let numeroDeDiasHastaElSiguienteCumpleanos;
 console.log(typeof(numeroDeDiasHastaElSiguienteCumpleanos));
 
 
+// A diferencia de undefined, null es un valor que el programador debe definir, no es asignado de forma automática. 
+const fechaDeRecepcion = null;
+
+console.log(typeof(fechaDeRecepcion));
+
+
 }).call(this);
