@@ -62,7 +62,7 @@ console.log(typeof(mayorDeEdad));
 
 
 // No he asignado ningún valor a esta variable, por tanto, JavaScript le asignará automáticamente el valor de undefined. 
-const numeroDeDiasHastaElSiguienteCumpleanos; 
+let numeroDeDiasHastaElSiguienteCumpleanos; 
 
 console.log(typeof(numeroDeDiasHastaElSiguienteCumpleanos));
 
