@@ -1,4 +1,5 @@
 ;(function() { //IIFE
+'use strict';
 
 console.log("Hola mundo!");
 
