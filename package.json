@@ -1,0 +1,24 @@
+{
+  "name": "hab-m00",
+  "version": "1.0.0",
+  "description": "Hack A Boss Bootcamp - Module 00 (support exercises)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server 'www' --files 'www'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davorpa/hab-m00.git"
+  },
+  "keywords": [],
+  "author": "davorpa",
+  "license": "BSD-4-Clause",
+  "bugs": {
+    "url": "https://github.com/davorpa/hab-m00/issues"
+  },
+  "homepage": "https://github.com/davorpa/hab-m00#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12"
+  }
+}
