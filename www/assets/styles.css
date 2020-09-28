@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.bg-gray { 
+    background: gray;
+}
+
+.txt-white { 
+    color: whitesmoke;
+}
+
+#principal { 
+    text-decoration: underline; 
+}
