@@ -61,4 +61,10 @@ const mayorDeEdad = true;
 console.log(typeof(mayorDeEdad));
 
 
+// No he asignado ningún valor a esta variable, por tanto, JavaScript le asignará automáticamente el valor de undefined. 
+const numeroDeDiasHastaElSiguienteCumpleanos; 
+
+console.log(typeof(numeroDeDiasHastaElSiguienteCumpleanos));
+
+
 }).call(this);
