@@ -55,4 +55,10 @@ console.log(typeof(edad1));
 console.log(typeof(edad2));
 
 
+// En este caso tenemos una variable tipo booleano que es verdadera. 
+const mayorDeEdad = true;
+
+console.log(typeof(mayorDeEdad));
+
+
 }).call(this);
