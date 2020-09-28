@@ -19,4 +19,11 @@ let número_3 = 6;
 const patasArana = 8;
 
 
+// Damos por hecho que en esta variable se va a guardar el resultado de una suma.
+let resultadoSuma = 5 + 5;
+
+// No hay que preocuparse si el nombre es demasiado largo. Si es descriptivo está justificado.
+let numeroDeDiasHastaElRetiro = 345;
+
+
 }).call(this);
