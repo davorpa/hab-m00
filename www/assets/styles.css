@@ -17,3 +17,7 @@ p {
 .txt-white { 
     color: whitesmoke;
 }
+
+#principal { 
+    text-decoration: underline; 
+}
