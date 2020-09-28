@@ -108,4 +108,12 @@ numA++; // Es lo mismo que hacer "numA = numA + 1;" o "numA += 1;"
 numB += 15; // Es lo mismo que hacer "numB = numB + 15;"
 
 
+// En JavaScript se sigue la misma prioridad matemática a la hora de operar,
+// primero se priorizan las multiplicaciones y las divisiones,
+// luego van las sumas y las restas
+console.log("4 + 2 * 3 =", 4 + 2 * 3); // 10 
+
+// Ahora veamos que pasa si priorizamos la suma manualmente.
+console.log("(4 + 2) * 3 =", (4 + 2) * 3); // 18
+
 }).call(this);
