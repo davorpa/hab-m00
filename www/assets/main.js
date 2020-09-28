@@ -45,4 +45,14 @@ console.log(typeof(nombre));
 console.log(typeof(saludo));
 
 
+// En el caso de las variables tipo number no debemos rodear el número entre comillas. 
+let edad1 = 39; 
+
+// Esta variable sería tipo string y no tipo number, ¿entiendes el por qué? 
+let edad2 = '39';
+
+console.log(typeof(edad1));
+console.log(typeof(edad2));
+
+
 }).call(this);
