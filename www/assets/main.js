@@ -34,4 +34,15 @@ let edad = 13;
 // Debemos usar const siempre que nos sea posible. Solo emplearemos let en caso de que no nos quede otro remedio. 
 const name = 'Pablo';
 
+
+// Para definir una variable tipo string es obligatorio rodear el texto entre comillas. 
+const nombre = 'Pablo'; 
+
+// En JS no importa si usas comillas dobles o simples. 
+const saludo = "¡Hola! ¿Cómo estás?";
+
+console.log(typeof(nombre));
+console.log(typeof(saludo));
+
+
 }).call(this);
