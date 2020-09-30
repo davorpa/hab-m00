@@ -187,4 +187,11 @@ console.log("!''",  !''); // true
 }
 
 
+// Lo más común sería encontrarse con un 'i++' en lugar de 'i = i + 1'. En JS es exactamente lo mismo. 
+console.log("Bucles...");
+for (let i = 0; i <= 10; i = i + 1) { 
+    console.log(i); 
+}
+
+
 }).call(this);
