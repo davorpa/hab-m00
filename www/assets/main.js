@@ -116,4 +116,46 @@ console.log("4 + 2 * 3 =", 4 + 2 * 3); // 10
 // Ahora veamos que pasa si priorizamos la suma manualmente.
 console.log("(4 + 2) * 3 =", (4 + 2) * 3); // 18
 
+
+// Operadores lógicos y relacionales
+
+// igualdad e identidad estricta (identidad + type)
+console.log("false == 0 =",   false == 0); // true
+console.log("false === 0 =",  false === 0); // false
+console.log("false == '' =",  false == ''); // true
+console.log("false === '' =", false === ''); // false
+console.log("false == [] =",  false == []); // true
+console.log("false === [] =", false === []); // false
+console.log("10 == '10' =",   10 == "10"); // true
+console.log("10 === '10' =",  10 === "10"); // false
+
+// diferencia
+console.log("10 !== '10' =",  10 !== "10"); // true
+
+// mayor y menor que
+console.log("10 < 9 =",  10 < 9); // false
+console.log("10 < 12 =",  10 < 12); // true
+console.log("10 > 12 =",  10 > 8); // true
+console.log("10 > 5 =",  10 > 5); // false
+console.log("10 <= 10 =",  10 <= 10); // true
+console.log("10 <= '10' =",  10 <= "10"); // true
+console.log("10 <= 8 =",  10 <= 8); // false
+console.log("10 <= '9' =",  10 <= "9"); // false
+console.log("10 >= '9' =",  10 >= "9"); // true
+console.log("10 >= 9 =",  10 >= 9); // true
+
+// conjuncion
+console.log("10 >= 9 && false == 0 =",  10 === 9 && false == 0); // false
+
+// disyuncion
+console.log("10 >= 9 || false == 0 =",  10 >= 9 || false == 0); // true
+
+// negacion
+console.log("!false",  !false); // true
+console.log("!undefined",  !undefined); // true
+console.log("!0",  !0); // true
+console.log("!!0",  !!0); // false
+console.log("!''",  !''); // true
+
+
 }).call(this);
