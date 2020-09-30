@@ -256,4 +256,34 @@ for (let i = 0; i <= 10; i = i + 1) {
 }("Ejercicio 04"));
 
 
+// Ejercicio 05
+(function ejercicio05(l){
+    'use strict'
+
+    const numero = 7;
+    let esPrimo = true;
+
+    // Empezamos directamente en "2" porque todos los números son divisibles entre "1". Del mismo modo omitimos
+    // al propio número (el 7) con el "menor que" en la condición.
+    for (let i = 2; i < numero; i++) {
+        // Este "console.log" es para ayudaros a ver qué pasa en cada repetición. La sintaxis puede resultar
+        // un tanto extraña pero no te preocupes, no tienes por qué entender esto a estas alturas.
+        console.log(l, `En esta repetición compruebo el resto de ${numero} / ${i}.`);
+        
+        // Comprobamos si el resto es igual a 0. Si lo es, cambiamos la variable "esPrimo" a "false".
+        if (numero % i === 0) {
+            esPrimo = false;
+        }
+    }
+
+    if (esPrimo) {
+        console.log(l, numero);
+        console.log(l, 'Es primo.');
+    } else {
+        console.log(l, numero);
+        console.log(l, 'No es primo.');
+    }
+}("Ejercicio 05"));
+
+
 }).call(this);
