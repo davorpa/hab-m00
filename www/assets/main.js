@@ -245,4 +245,15 @@ for (let i = 0; i <= 10; i = i + 1) {
 }("Ejercicio 03"));
 
 
+// Ejercicio 04
+(function ejercicio04(l){
+    'use strict' 
+
+    // Recordemos que "i += 10" es lo mismo que "i = i + 10".
+    for (let i = 0; i <= 100; i += 10) {
+        console.log(l, i);
+    }
+}("Ejercicio 04"));
+
+
 }).call(this);
