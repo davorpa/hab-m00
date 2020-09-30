@@ -216,4 +216,23 @@ for (let i = 0; i <= 10; i = i + 1) {
 }("Ejercicio 01"));
 
 
+// Ejercicio 02
+(function ejercicio02(l){
+    'use strict' 
+    let edad = 18;
+    
+    // Recuerda que las condiciones intermedias deben ir precedidas por un "else if". Del mismo modo, el "else" final nunca va
+    // acompañado de una condición. Este "else" solo se ejcutará si las condiciones anteriores no se han cumplido.
+    if (edad < 16) {
+        console.log(l, 'La persona tiene menos de 16 años.');
+    } else if (edad >= 16 && edad < 26) {
+        console.log(l, 'La persona tiene entre 16 y 25 años.');
+    } else if (edad >= 26 && edad < 46) {
+        console.log(l, 'La persona tiene entre 26 y 45 años.');
+    } else {
+        console.log(l, 'La persona tiene más de 45 años.');
+    }
+}("Ejercicio 02"));
+
+
 }).call(this);
