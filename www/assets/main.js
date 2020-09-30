@@ -172,5 +172,19 @@ console.log("!''",  !''); // true
     }
 }
 
+{
+    // Condición "If else" anidada
+    let numero = 2;
+    if (numero === 0) { 
+        console.log('El número es el 0!');
+    } else if (numero === 1) { 
+        console.log('¡El número es el 1!');
+    } else if (numero === 2) { 
+        console.log('¡El número es el 2!');
+    } else { 
+        console.log('La variable tiene un valor distinto a 0, 1 o 2.');
+    }
+}
+
 
 }).call(this);
