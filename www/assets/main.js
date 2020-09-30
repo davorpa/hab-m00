@@ -194,4 +194,26 @@ for (let i = 0; i <= 10; i = i + 1) {
 }
 
 
+// Ejercicio 01
+(function ejercicio01(l){
+    'use strict'
+
+    let edad = 18;
+    
+    // Aunque esta variable en un principio no sabemos si va a ser "true" o "false" lo mejor es asignarle un valor igualmente 
+    // y no dejar que JavaScript modifique su valor de inicio a "undefined".
+    let esAdulto = false;
+    
+    // Como "esAdulto" ya contempla el valor "false" no es necesario escribir un "else" después del "if" dado que de esta forma 
+    // ya contemplamos las dos opciones. Si eliminamos el "else" el código funcionaría igualmente, de hecho, es redundante.
+    if (edad >= 18) {
+            esAdulto = true;
+    } else {
+            esAdulto = false;
+    }
+    
+    console.log(l, esAdulto);
+}("Ejercicio 01"));
+
+
 }).call(this);
