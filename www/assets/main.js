@@ -158,4 +158,19 @@ console.log("!!0",  !!0); // false
 console.log("!''",  !''); // true
 
 
+{
+    // Condición "If else"
+    let mayorDeEdad = true; 
+    // Si la condición es cierta... 
+    if (mayorDeEdad) { 
+        // ¡Ejecuta este bloque de código! 
+        console.log('La persona es mayor de edad.'); 
+    // De lo contrario... 
+    } else { 
+        // ¡Ejecuta este bloque de código! 
+        console.log('La persona es menor de edad.'); 
+    }
+}
+
+
 }).call(this);
