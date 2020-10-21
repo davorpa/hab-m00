@@ -1,6 +1,6 @@
 # hab-m00
 
-This project _(Module 00)_ holds the practice contents to early prepare my participation as student in the Hack A Boss bootcamp.
+This project _(Module 00)_ holds the practice contents to early prepare my participation as student at [Hack A Boss bootcamp](https://hackaboss.dev/bootcamp-programacion-remoto).
 
 ## How to contribute
 
