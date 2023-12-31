@@ -18,6 +18,6 @@
     "start": "browser-sync start --server 'www' --files 'www'"
   },
   "devDependencies": {
-    "browser-sync": "2.29.3"
+    "browser-sync": "3.0.2"
   }
 }
